@@ -1,0 +1,52 @@
+:root {
+    --primary-text-color:#757575;
+    --heading-main-color:#212121;
+    --accent:#2196F3;
+
+}
+
+.list {
+    list-style: none;   
+}
+
+/* logo  */
+.logo {
+    color: var(--accent);
+}
+
+.logo-header {
+    color: #000;
+}
+
+/* nav  */
+.site-nav .link {
+    color: var(--heading-main-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent);
+}
+
+.site-nav .link.current {
+        color: var(--accent);
+}
+
+.auth-nav .link {
+        color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent);
+}
+
+/* section */
+.section {
+    
+
+}
+
+.section-title {
+
+}
