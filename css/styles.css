@@ -5,6 +5,10 @@
 
 }
 
+body {
+    color: var(--primary-text-color);
+}
+
 .list {
     list-style: none;   
 }
@@ -15,7 +19,11 @@
 }
 
 .logo-header {
-    color: #000;
+    color: #000000;
+}
+
+.logo-footer {
+    color:#FFFFFF;
 }
 
 /* nav  */
@@ -48,5 +56,6 @@
 }
 
 .section-title {
+    color: var(--heading-main-color);
 
 }
