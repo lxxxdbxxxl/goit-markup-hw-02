@@ -34,6 +34,11 @@ a {
 
 .logo-footer {
   color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /* nav  */
@@ -92,6 +97,7 @@ a {
 }
 
 .button.title {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -136,6 +142,9 @@ a {
 
 /* team  */
 
+.team-header {
+}
+
 .section-team {
   color: var(--heading-main-color);
   font-weight: 500;
@@ -168,6 +177,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .address-contact {
@@ -176,6 +186,17 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.address-location:hover,
+.address-location:focus {
+  color: var(--accent);
+}
+
+.address-contact:hover,
+.address-contact:focus {
+  color: var(--accent);
 }
 
 .portfolio {
@@ -207,6 +228,7 @@ a {
   top: 174px;
   background: #f5f4fa;
 
+  font-family: inherit;
   color: var(--heading-main-color);
   font-weight: 500;
   font-size: 16px;
