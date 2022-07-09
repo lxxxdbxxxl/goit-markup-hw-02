@@ -144,12 +144,15 @@ h6 {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: #ffffff;
+
+  background: #2f303a;
 }
 
 .hero-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
@@ -240,4 +243,40 @@ h6 {
 .address-contact:hover,
 .address-contact:focus {
   color: var(--accent);
+}
+
+/* portfolio */
+
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading-main-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-color: #f5f4fa;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background: var(--accent);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--heading-main-color);
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
